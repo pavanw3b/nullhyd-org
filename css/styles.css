@@ -10207,6 +10207,12 @@ form .row:first-child .floating-label-form-group {
   color: #212529;
 }
 
+.activity-card .card-body,
+.activity-card p,
+.activity-card h3 {
+  color: inherit;
+}
+
 .activity-card h3 {
   color: #0063b2;
 }
