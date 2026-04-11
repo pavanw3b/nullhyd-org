@@ -10181,3 +10181,93 @@ form .row:first-child .floating-label-form-group {
 .btn-social {
   margin-bottom: 0.5rem;
 }
+
+.section-intro {
+  max-width: 54rem;
+}
+
+.community-panel,
+.activity-card,
+.value-card,
+.note-card,
+.hashtag-callout {
+  border: 0;
+  border-radius: 0.75rem;
+  box-shadow: 0 0.75rem 2rem rgba(0, 99, 178, 0.08);
+}
+
+.community-panel,
+.value-card,
+.hashtag-callout {
+  background-color: #f8fbfd;
+}
+
+.activity-card {
+  background-color: #fff;
+  color: #212529;
+}
+
+.activity-card h3 {
+  color: #0063b2;
+}
+
+.community-panel {
+  padding: 2rem;
+}
+
+.activity-card .card-body,
+.value-card .card-body {
+  padding: 2rem;
+}
+
+.card-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 1.5rem;
+  border-radius: 999px;
+  background-color: #0063b2;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.activity-card .card-icon {
+  background-color: #9cc3d5;
+}
+
+.community-pill {
+  margin: 0 0.6rem 0.75rem 0;
+  padding: 0.65rem 0.95rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.join-list li,
+.note-list li {
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+}
+
+.note-card {
+  height: 100%;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.14);
+}
+
+.hashtag-callout {
+  margin-top: 1rem;
+  padding: 2rem;
+}
+
+.hashtag-callout h3 {
+  font-size: 2.5rem;
+  color: #0063b2;
+}
+
+.credits-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
